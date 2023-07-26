@@ -10,5 +10,6 @@ set xlabel "time"
 set ylabel "T[F]"
 #set xrange [5 : 8]
 #set yrange [0 : 4.5]
+set datafile separator ","
 plot \
-	"vt" using 1:2 with lines title "temp"
+	"vt.dat" using 1:2 with lines title "temp"
